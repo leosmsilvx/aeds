@@ -1,0 +1,5 @@
+1 - a) falso
+b) verdadeiro
+c) verdadeiro
+d) verdadeiro
+e) falso
