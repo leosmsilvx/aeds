@@ -1,0 +1,3 @@
+É uma maneira de expressar a complexidade assintótica de g(n) em termos de f(n).
+
+Isso é usado para descrever como o tempo de execução (ou uso de recursos) de um algoritmo ou função cresce em relação ao tamanho da entrada (n).

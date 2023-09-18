@@ -1,0 +1,4 @@
+a) Falsa.
+b) Falsa.
+c) Sim, Aproximadamente 18.23.
+d) Quando n > 18.23

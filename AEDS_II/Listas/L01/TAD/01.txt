@@ -1,0 +1,3 @@
+TAD é uma abstração que define um conjunto de operações e suas propriedades. Podemos dizer que TAD é uma tentativa de fazer o que uma linguagem orientada a objetos faz com os propios objetos.
+
+A característica fundamental na utilização de um TAD é a encapsulação dos detalhes da implementação

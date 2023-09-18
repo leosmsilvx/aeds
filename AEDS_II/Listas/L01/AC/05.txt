@@ -1,0 +1,4 @@
+a) 1 passo.
+b) Quando o elemento vai ser encaixado na ultima posição do array, porque dai não será necessário fazer nenhuma troca ou deslocamento de elementos, O(1).
+c) Quando o elemento vai ser encaixado na primeira posição do array, porque dai será necessário deslocar todos os elementos do array para abrir espaço para esse novo elemento, O(n).
+d) Assumindo que a chance do elemento ser encaixado na ultima posição do array é baixa, o caso médio se da o mesmo do pior caso, O(n).

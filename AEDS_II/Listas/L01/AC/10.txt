@@ -1,0 +1,8 @@
+a) Linear
+b) Constante
+c) Linear
+d) Cubica
+e) Exponencial
+f) Quadratica
+g) Linear
+h) Exponencial

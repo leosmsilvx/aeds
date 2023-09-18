@@ -1,0 +1,7 @@
+Vantagens da utilização de TADs
+- Encapsulação
+- Abstração
+- Reutilização de Código
+- Manutenção Facilitada
+- Legibilidade e Documentação
+- Testabilidade

@@ -1,0 +1,3 @@
+O(1) e O(2), representam a mesma coisa, um algoritimo de complexidade constante.
+
+A diferença é mínima mas o O(2) representa uma constante maior o que significa que é o algoritimo é um pouco menos eficiente em termos de tempo ou espaço, embora ainda seja considerado constante.

@@ -1,0 +1,3 @@
+a) Verdadeira
+b) Verdadeira
+c) Falsa
