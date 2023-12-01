@@ -5,7 +5,14 @@
 #include <time.h>
 #include <math.h>
 
-#define tamVet 5
+#define tamVet 10
+
+
+void trocar(int i, int j, int vet[]){
+    int temp = vet[i];
+    vet[i] = vet[j];
+    vet[j] = temp;
+}
 
 void particionar(int esquerda, int direita, int* i, int* j, int vetor[]){
     int x;
@@ -28,14 +35,13 @@ void particionar(int esquerda, int direita, int* i, int* j, int vetor[]){
         }
 
         if(*i != *j){
-            int temp = vetor[*i];
-            vetor[*i] = vetor[*j];
-            vetor[*j] = temp;
+            trocar(*i, *j, vetor);
         }
         ++*i;
         --*j;
     }
 }
+
 
 void ordenar(int esquerda, int direita, int vetor[]){
     int i, j;
@@ -63,7 +69,7 @@ void printVet(int vet[], int tam){
 int main(){
     srand(time(NULL));
 
-    int vet[tamVet] = {1, 37, 21, 12, 50, 49, 15, 12, 35, 9};
+    int vet[tamVet] = {1, 37, 21, 12, 50, 49, 15, 13, 35, 9};
     int tam = tamVet;
     int esq = 0;
     int dir = 4;
